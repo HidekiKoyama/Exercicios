@@ -154,4 +154,16 @@ print(c)
 del(c)
 print(c)
 
+
+# Mutáveis
+# Representadas por []
+
+
+carro = ['Ferrari', 'Vermelha', '2023']
+carro [1] = 'Amarelo'
+carro.append('Gasolina')     # cria no final da lista
+carro.insert(1, '797 cv ')   # insere na posição 1
+carro.pop(1)                 # remove o item na posição 1
+carro.remove('Vermelha')     # remove o valor 'vermelha'
+len(carro)                   # retorna o tamanho da lista
 '''
