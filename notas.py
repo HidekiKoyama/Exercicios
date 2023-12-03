@@ -167,3 +167,39 @@ carro.pop(1)                 # remove o item na posição 1
 carro.remove('Vermelha')     # remove o valor 'vermelha'
 len(carro)                   # retorna o tamanho da lista
 '''
+'''
+
+
+
+# Dicionário de informações de várias pessoas
+pessoas = {
+    'pessoa1': {
+        'nome': 'Maria',
+        'idade': 30,
+        'cidade': 'São Paulo',
+        'email': 'maria@email.com'
+    },
+    'pessoa2': {
+        'nome': 'João',
+        'idade': 25,
+        'cidade': 'Rio de Janeiro',
+        'email': 'joao@email.com'
+    },
+    # Adicione quantas pessoas quiser da mesma forma
+}
+
+# Acessando informações de pessoas específicas
+print("Informações de Pessoa 1:")
+print("Nome:", pessoas['pessoa1']['nome'])
+print("Idade:", pessoas['pessoa1']['idade'])
+print("Cidade:", pessoas['pessoa1']['cidade'])
+print("Email:", pessoas['pessoa1']['email'])
+
+print("\nInformações de Pessoa 2:")
+print("Nome:", pessoas['pessoa2']['nome'])
+print("Idade:", pessoas['pessoa2']['idade'])
+print("Cidade:", pessoas['pessoa2']['cidade'])  
+print("Email:", pessoas['pessoa2']['email'])
+
+
+'''
